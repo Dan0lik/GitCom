@@ -64,6 +64,80 @@ namespace ИспользуюБибблиотеку
             }
         }
 
+        public static int GetBCC(ref byte[] recvBCC)
+        {
+            try
+            {
+                byte BCC = 0;
+                for (int i = 0; recvBCC.Length > i; i++)
+                {
+                    if(recvBCC[i] != 0x01 && recvBCC[i] != 0x02)
+                    {
+                        continue;
+                    }
+                    else
+                    {
+                        i++;
+                        for (int j = i; recvBCC.Length > j; j++)
+                        {
+                            BCC ^= recvBCC[j];
+
+                            if (recvBCC[j] == 0x03)
+                            {
+                                break;
+                            }
+                        }
+                        break;
+                    }               
+                }
+                Array.Resize(ref recvBCC, recvBCC.Length + 1);
+                recvBCC[recvBCC.Length - 1] = BCC;
+
+                return 0;
+
+            }
+            catch (Exception e)
+            {
+                return 1;
+            }
+        }
+
+        public static int CheckBCC(ref byte[] recvBCC)
+        {
+            try
+            {
+                byte BCC = 0;
+                for (int i = 0; recvBCC.Length > i; i++)
+                {
+                    if (recvBCC[i] != 0x01 && recvBCC[i] != 0x02)
+                    {
+                        continue;
+                    }
+                    else
+                    {
+                        i++;
+                        for (int j = i; recvBCC.Length > j; j++)
+                        {
+                            BCC ^= recvBCC[j];
+
+                            if (recvBCC[j] == 0x03)
+                            {
+                                break;
+                            }
+                        }
+                        break;
+                    }
+                }
+                if (recvBCC[recvBCC.Length - 1] == BCC) return 0;   
+                
+                else return 1;              
+            }
+            catch (Exception e)
+            {
+                return 1;
+            }
+        }
+
         public static bool RxByte(byte[] sendBuffer, ref bool FlagActiveOut)
         {
             bool result = false;

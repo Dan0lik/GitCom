@@ -59,3 +59,13 @@ C:\Users\Borisov.D\Desktop\ИспользуюБибблиотеку\Исполь
 C:\Users\Borisov.D\Desktop\ИспользуюБибблиотеку\ИспользуюБибблиотеку\obj\Debug\ИспользуюБибблиотеку.csproj.CopyComplete
 C:\Users\Borisov.D\Desktop\ИспользуюБибблиотеку\ИспользуюБибблиотеку\obj\Debug\ИспользуюБибблиотеку.exe
 C:\Users\Borisov.D\Desktop\ИспользуюБибблиотеку\ИспользуюБибблиотеку\obj\Debug\ИспользуюБибблиотеку.pdb
+C:\Users\Borisov.D\Desktop\GitCom\ИспользуюБибблиотеку\bin\Debug\ИспользуюБибблиотеку.exe.config
+C:\Users\Borisov.D\Desktop\GitCom\ИспользуюБибблиотеку\bin\Debug\ИспользуюБибблиотеку.exe
+C:\Users\Borisov.D\Desktop\GitCom\ИспользуюБибблиотеку\bin\Debug\ИспользуюБибблиотеку.pdb
+C:\Users\Borisov.D\Desktop\GitCom\ИспользуюБибблиотеку\bin\Debug\DLL_61107.pdb
+C:\Users\Borisov.D\Desktop\GitCom\ИспользуюБибблиотеку\obj\Debug\ИспользуюБибблиотеку.csproj.AssemblyReference.cache
+C:\Users\Borisov.D\Desktop\GitCom\ИспользуюБибблиотеку\obj\Debug\ИспользуюБибблиотеку.csproj.SuggestedBindingRedirects.cache
+C:\Users\Borisov.D\Desktop\GitCom\ИспользуюБибблиотеку\obj\Debug\ИспользуюБибблиотеку.csproj.CoreCompileInputs.cache
+C:\Users\Borisov.D\Desktop\GitCom\ИспользуюБибблиотеку\obj\Debug\ИспользуюБибблиотеку.csproj.CopyComplete
+C:\Users\Borisov.D\Desktop\GitCom\ИспользуюБибблиотеку\obj\Debug\ИспользуюБибблиотеку.exe
+C:\Users\Borisov.D\Desktop\GitCom\ИспользуюБибблиотеку\obj\Debug\ИспользуюБибблиотеку.pdb
